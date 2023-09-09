@@ -13,14 +13,14 @@ class _CounterDesign extends State<CounterDesign> {
   void add() {
     setState(() {
       _n++;
-      _amt = _amt + 50;
+      _amt = _amt + 15;
     });
   }
 
   void minus() {
     setState(() {
       if (_n != 0) _n--;
-      _amt = _amt - 50;
+      _amt = _amt - 15;
     });
   }
 
